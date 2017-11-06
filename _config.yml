@@ -1,1 +1,10 @@
-theme: jekyll-theme-minimal
+# basic options
+title: Efim's Blog
+author: Efim Losev
+email: efimius@gmail.com
+description: Ideas, Thoughts, Updates
+
+
+# Build settings
+markdown: kramdown
+theme: minima
