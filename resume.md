@@ -1,3 +1,8 @@
+---
+layout: page
+title: Resume
+---
+
 **Efim Losev**
 efimius@gmail.com ∙ 323.620.6680 ∙ Downey, CA   
 Authorized to work in the USA for any employers.  
