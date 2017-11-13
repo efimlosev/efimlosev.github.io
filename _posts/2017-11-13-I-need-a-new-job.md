@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  "Forty two the answer to everything"
-date:   2017-11-13 13:46:35 -0800
+title:  "A new job is needed"
+date:   2017-11-13 14:07:35 -0800
 categories: update
 ---
 
-# Well, I turned 42.
+# Sorry, for saying it but I need a new job.
 
-You know, when I turned 35 or something close. I was thinking about significant results I reached by this time, mostly about career advantages, illnesses, and my family.
-
-I have to assume that I did not feel(think) this way today. I am just curious about my future and thinking that exactly 42 means,  I  did not mean my age, I  meant this strange number 42  the answer to everything.
+I doubt that anybody that read this post, so please consider it as a practicing exercise, thought I defenetly...
 
