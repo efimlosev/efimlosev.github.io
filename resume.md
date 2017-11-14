@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Resume
+layout: page
 ---
 
 **Efim Losev**
