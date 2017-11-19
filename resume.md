@@ -3,14 +3,15 @@ title: Resume
 layout: page
 ---
 
-[comment]: <> (This is a comment, it will not be included)
+[comment]: <> (the header starts)
 
- - header_starts: test
+ 
 
 **Efim Losev**
 efimius@gmail.com ∙ 323.620.6680 ∙ Downey, CA   
 Authorized to work in the USA for any employers.
-- header_ends: test
+[comment]: <> (the header ends)
+
 ---
 
 **PROFESSIONAL SUMMARY**  
