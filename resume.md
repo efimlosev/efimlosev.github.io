@@ -2,7 +2,7 @@
 title: Resume
 layout: page
 ---
-[//]: (test)
+[comment]: <> (This is a comment, it will not be included)
 **Efim Losev**
 efimius@gmail.com ∙ 323.620.6680 ∙ Downey, CA   
 Authorized to work in the USA for any employers.  
