@@ -16,3 +16,9 @@ for i in `cat  /var/log/pacman.log | awk '/removed/ && /07:13/ { print $5}'; do 
 ```
 rm /var/lib/pacman/db.lck
 ```
+
+### where pacman's cache files located
+
+```
+/var/cache/pacman/pkg/
+```
