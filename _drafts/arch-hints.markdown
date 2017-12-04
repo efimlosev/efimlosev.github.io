@@ -11,3 +11,8 @@ date: 2017-12-04 16:10:00 Z
 for i in `cat  /var/log/pacman.log | awk '/removed/ && /07:13/ { print $5}'; do pacman -S --noconfirm $i; done
 
 ```
+
+### Unlock Pacman 
+```
+rm /var/lib/pacman/db.lck
+```
