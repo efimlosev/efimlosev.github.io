@@ -1,7 +1,7 @@
 ---
 title: How to allow a user to set an IP information  during automatic installation
   in CentOS 7 and RedHat 7
-date: 2017-12-11 16:22:00 Z
+date: 2017-12-11 08:22:00 -08:00
 categories:
 - Linux
 tags:
@@ -43,6 +43,7 @@ if [ -z "${NIC}" ]; then
     NIC=eth0
 fi
 cat >  /etc/sysconfig/network-scripts/ifcfg-eth0 <<EOF
+DEVICE=$NIC
 BOOTPROTO="static"
 ONBOOT="yes"
 TYPE="Ethernet"
