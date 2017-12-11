@@ -1,6 +1,6 @@
 ---
 title: How to allow a user to set an IP information  during automatic installation
-  in CentOS and RedHat
+  in CentOS 7 and RedHat 7
 date: 2017-12-11 16:22:00 Z
 ---
 
