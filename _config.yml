@@ -1,6 +1,6 @@
 ---
 title: Efim's Blog
-timezone: UTC
+timezone: America/Los_Angeles
 collections:
   posts:
     title: Posts
