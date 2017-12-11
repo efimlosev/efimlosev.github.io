@@ -10,7 +10,7 @@ tags:
 ---
 
 One of my clients wanted me to create him unattended CentOS boot cd,  but he also wanted to set up a static IP.  Here is a solution.   
-**a fragment of a kickstart file **
+**a fragment of a kickstart file**
 ```sh 
 post
 exec < /dev/tty6 > /dev/tty6 2> /dev/tty6
