@@ -61,3 +61,5 @@ EOF
 sed -i 's/quiet"/net.ifnames=0 biosdevname=0"/' /etc/default/grub && grub2-mkconfig -o /boot/grub2/grub.cfg
 %end
 ```
+[ref](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/installation_guide/sect-kickstart-examples#sect-kickstart-input-example)	
+
