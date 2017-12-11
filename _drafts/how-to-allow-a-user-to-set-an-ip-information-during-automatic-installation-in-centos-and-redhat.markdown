@@ -2,6 +2,11 @@
 title: How to allow a user to set an IP information  during automatic installation
   in CentOS 7 and RedHat 7
 date: 2017-12-11 16:22:00 Z
+categories:
+- Linux
+tags:
+- CentOS7
+- RedHat7
 ---
 
 One of my clients wanted me to create him unattended CentOS boot cd,  but he also wanted to set up a static IP.  Here is a solution. 
