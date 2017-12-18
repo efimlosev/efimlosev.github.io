@@ -10,7 +10,9 @@ Key:
 Field name: 
 ---
 
-# My client asked me if it possible to automate a few actions when provisioning dedicated servers at OVH.  Unfortunately, OVH's control panel does not offer many options for customization, but it allows to execute  a post-installation script 
+My client asked me if it possible to automate a few actions when provisioning dedicated servers at OVH.
+
+Unfortunately, OVH's control panel does not offer many options for customization, but it allows to execute  a post-installation script 
 ![index.png](/uploads/index.png)
 
 Here is an example of script we use to configure bridge and change default ssh port 
