@@ -1,6 +1,7 @@
 ---
 title: Post-installation script at OVH
 date: 2017-12-18 13:24:00 -08:00
+published: false
 categories:
 - Linux
 tags:
