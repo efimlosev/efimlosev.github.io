@@ -1,13 +1,15 @@
 ---
 title: Post-installation script at OVH
 date: 2017-12-18 13:24:00 -08:00
+Key: 
+Field name: 
 ---
 
 # My client asked me if it possible to automate a few actions when provisioning a dedicated servers at OVH.  Unfortunately, their control panel does not offer many options for customization, but it is allow to execute  a post-installation script 
 ![index.png](/uploads/index.png)
 
 Here is an example of script we use to configure bridge and change default ssh port 
-```
+```sh
 #!/bin/bash
 IP=`ifconfig | grep -A 1 eth0|tail -1|awk '{ print $2}'`
 NETMASK=`ifconfig | grep -A 1 eth0|tail -1 |awk '{ print $4}'`
