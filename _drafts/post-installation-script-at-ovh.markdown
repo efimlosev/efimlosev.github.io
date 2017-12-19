@@ -58,6 +58,6 @@ EOF
 ## making /etc/rc.local executable
 chmod +x /etc/rc.local
 #sed -i 's/enforcing/disabled/' /etc/sysconfig/selinux
-## changing a default ssh port
+## Changing a default ssh port
 sed -i 's/^#Port 22/Port 8822/' /etc/ssh/sshd_config  
 ```
