@@ -19,11 +19,13 @@ Unfortunately, OVH's control panel does not offer many options for customization
 Here is an example of script we use to configure bridge and change default ssh port 
 ```sh
 #!/bin/bash
+
+## hope, it is obvious: we are getting network settings here
 IP=`ifconfig | grep -A 1 eth0|tail -1|awk '{ print $2}'`
 NETMASK=`ifconfig | grep -A 1 eth0|tail -1 |awk '{ print $4}'`
 echo $NETMASK
 GW=`ip route list| head -1|awk '{ print $3}'`
-
+## Creating network config files
 cat > /root/ifcfg-viifbr0 << EOF
 DEVICE=viifbr0
 TYPE=Bridge
@@ -41,6 +43,7 @@ BRIDGE=viifbr0
 ONBOOT=yes
 NM_CONTROLLED="no"
 EOF
+##0 Writing /etc/rc.local
 cat > /etc/rc.local <<EOF
 #!/bin/bash
 mv /root/ifcfg-viifbr0 /etc/sysconfig/network-scripts/ifcfg-viifbr0
@@ -52,8 +55,9 @@ systemctl restart network
 :> /etc/rc.local
 touch /var/lock/subsys/local
 EOF
-
+## making /etc/rc.local executable
 chmod +x /etc/rc.local
 #sed -i 's/enforcing/disabled/' /etc/sysconfig/selinux
+## changing a default ssh port
 sed -i 's/^#Port 22/Port 8822/' /etc/ssh/sshd_config  
 ```
