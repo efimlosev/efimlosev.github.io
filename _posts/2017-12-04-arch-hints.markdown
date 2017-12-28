@@ -13,7 +13,7 @@ Unlock Pacman
 
    ```sh rm /var/lib/pacman/db.lck```
 
-]Locations of pacman's cache files are located
+Locations of pacman's cache files are located
 ```
     /var/cache/pacman/pkg/
 ```
