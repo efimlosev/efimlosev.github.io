@@ -9,14 +9,14 @@ tags:
 
 # Today I want to publish a few simple hints which I have used recently
 
-## Check out how  much CPUs' time every VPC uses
+### Check out how  much CPUs' time every VPC uses
 
 ```sh
 for i in `virsh list| awk 'NR !=2 && NR !=1 {print}'| awk '/runn/ {print $2}'`; do echo $i; virsh  vcpuinfo $i ;done
 
 ```
 
-## Execute something when the script finds the expected changes
+### Execute something when the script finds the expected changes
 
 
 ```sh
