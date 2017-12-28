@@ -1,6 +1,8 @@
 ---
 title: Arch's hints
 date: 2017-12-04 08:10:00 -08:00
+categories:
+- Linux
 ---
 
 Arch - a few quick hits
