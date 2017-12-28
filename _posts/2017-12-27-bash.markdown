@@ -21,8 +21,6 @@ Execute something when the script finds the expected changes
 
 ```sh
 ./install.sh  1> test.txt& # Let's say this script runs in background and write something in test.txt
-
 while [ "$APIP" == "" ];do sleep 10; APIP=`grep 'API Password' test.txt`;done; # this line does nothing until it finds a a pattern
-
 echo "$APIP" | mail -s "API" efimius@gmail.com # sends an email when finds the pattern
 ```
