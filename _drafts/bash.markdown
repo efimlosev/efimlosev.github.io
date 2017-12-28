@@ -7,3 +7,21 @@ tags:
 - bash
 ---
 
+# Today I want to publish a few simple hints which I have used recently
+
+## Check out how  much CPUs' time every VPC uses
+
+```
+for i in `virsh list| awk 'NR !=2 && NR !=1 {print}'| awk '/runn/ {print $2}'`; do echo $i; virsh  vcpuinfo $i ;done
+
+```
+
+## Execute something when the script finds the expected changes
+
+
+```
+./install.sh  1> test.txt& # Let's say this script runs in background and write something in test.txt
+
+while [ "$APIP" == "" ];do sleep 10; APIP=`grep 'API Password' test.txt`;done; # this line does nothing until it finds a a pattern
+
+echo "$APIP" | mail -s "API" efimius@gmail.com # sends an email when finds the pattern
