@@ -5,6 +5,7 @@ categories:
 - Linux
 tags:
 - bash
+- mongodump
 ---
 
 Recently,  I had to backup MongoDB, and as I have previous experience working Mysql, I wanted to back up using the same approach - dump every database in separated a file.
