@@ -15,7 +15,7 @@ Here is my solution.
 
 ``` sh
 for i in  `mongo -u backup -p password admin --eval "db.adminCommand('listDatabases')" | awk '{if (NR > 3) {print}}' |jq ."databases"| jq .[].name`; do mongodump -u backup -p  Iwant_Backup --db $i  --archive  --authenticationDatabase admin> /backup/mongo/$i.mongo; done
-crontab -l > /backup/crontab
+
 
 ```
 
