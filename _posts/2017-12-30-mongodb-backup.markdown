@@ -19,7 +19,6 @@ for i in  `mongo -u backup -p password admin --eval "db.adminCommand('listDataba
 do mongodump -u backup -p  Iwant_Backup --db $i  --archive  --authenticationDatabase admin> /backup/mongo/$i.mongo;
 done
 
-
 ```
 
 
