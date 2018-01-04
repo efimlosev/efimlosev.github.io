@@ -14,4 +14,5 @@ github_username: efimlosev
 description: Efim Losev, Sys Admin. Ideas, Thoughts, Updates
 markdown: kramdown
 theme: minima
+paginate: 5
 google_analytics: UA-109652089-1
