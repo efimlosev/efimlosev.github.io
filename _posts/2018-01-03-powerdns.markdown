@@ -9,4 +9,4 @@ tags:
 - Virtualizator
 ---
 
-See https://github.com/efimlosev/RH/tree/master/pdns
+See: https://github.com/efimlosev/RH/tree/master/pdns
