@@ -1,0 +1,12 @@
+---
+title: PowerDNS
+date: 2018-01-03 21:20:00 -08:00
+categories:
+- Linux
+tags:
+- bash
+- DNS
+- Virtualizator
+---
+
+See https://github.com/efimlosev/RH/tree/master/pdns
