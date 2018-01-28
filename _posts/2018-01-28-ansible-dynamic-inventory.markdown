@@ -13,7 +13,7 @@ I decided to use its API to write an Ansible dynamic inventory which we can use 
 
 Here it is:
 
-[An Ansible dynamic inventory](ansible-an-inventory-script)
+[Ansible dynamic inventory](ansible-an-inventory-script)
 
 
  
