@@ -8,7 +8,7 @@ tags:
 - Programming
 ---
 
-The company I work with uses Virtualizor,  a VPS Management Panel.  
+The company I work with uses Virtualizor, a VPS Management Panel.  
 I decided to use its API to write an Ansible dynamic inventory which we can use in the future.
 
 Here it is:
