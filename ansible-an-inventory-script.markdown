@@ -1,7 +1,6 @@
 ---
 title: Ansible  inventory script
 date: 2018-01-28 12:07:00 -08:00
-published: false
 ---
 
 
