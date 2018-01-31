@@ -198,5 +198,4 @@ if __name__ == '__main__':
 
 
 ```
-Now you  can run Ansible as usual.
-![export.png](/uploads/export.png)
+Now you can run Ansible as usual.
