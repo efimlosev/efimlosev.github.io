@@ -112,11 +112,14 @@ if __name__ == "__main__":
 ## The dynamic inventory script itself
 
 ```python
+#!/bin/python
 import json
 import argparse
+
+from sys import path
+path.append('/home/efim/Dropbox/routerhosting')
 from collections import OrderedDict
 import json_p_nRH
-
 
 
 
