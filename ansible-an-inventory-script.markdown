@@ -5,7 +5,7 @@ date: 2018-01-28 12:07:00 -08:00
 
 
 
-# Ansible Dynamic Inventory
+# An Ansible Dynamic Inventory
 ## Getting API Key
 
 We need to put to the server which can run PHP, two files: admin.php http://files.virtualizor.com/sdk.zip and  something like below
@@ -47,9 +47,9 @@ In  my  case I just copy my script to ``` cp efim.php /usr/local/virtualizor/end
 
 To understand my script you need a  base understanding of PHP and this page http://virtualizor.com/admin-api/ that explains how to work with Virtualizator API.
 
-The  script I provided,  consist: an IP the main node,  its key and its pass.The key and the pass can be found here ``` /usr/local/virtualizor/universal.php```
+The script I provided,  consist: an IP the main node,  its key and its pass.The key and the pass can be found here ``` /usr/local/virtualizor/universal.php```
 
-Next step would be finding tthe key,  just check your server log for the queries  you sent to the server by exucuting my scrpt ``` tail -f /usr/local/emps/var/log/web.access.log | grep -v '?reverse_sync=1'| grep listservers ```
+Next step would be finding the key,  just check your server log for the queries you sent to the server by executing my script ``` tail -f /usr/local/emps/var/log/web.access.log | grep -v '?reverse_sync=1'| grep listservers ```
 
 ## Writing a library to work with API
 
@@ -198,5 +198,5 @@ if __name__ == '__main__':
 
 
 ```
-
+Now you  can run Ansible as usual.
 ![export.png](/uploads/export.png)
