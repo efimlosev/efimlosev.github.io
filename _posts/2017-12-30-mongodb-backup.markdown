@@ -8,9 +8,9 @@ tags:
 - mongodump
 ---
 
-Recently,  I had to backup MongoDB, and as I have previous experience working Mysql, I wanted to back up using the same approach - dump every database in separated a file.
+Recently,  I had to backup MongoDB, and as I have previous experience working Mysql, I wanted to back it up using the same approach - dump every database in separated a file.
 
-The problem is that I don't really know how to print in an easy way a list databases to the console. I have solved this problem,  but the solution is awkward
+The problem is that I don't really know how to see in an easy way a list databases to the console. I have solved this problem,  but the solution is awkward
 
 Here is my solution.
 

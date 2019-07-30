@@ -10,9 +10,9 @@ Key:
 Field name: 
 ---
 
-My client asked me if it possible to automate a few actions when provisioning dedicated servers at OVH.
+My client asked me if it is possible to automate a few actions when provisioning dedicated servers at OVH.
 
-Unfortunately, OVH's control panel does not offer many options for customization, but they allow to execute a post-installation script.
+Unfortunately, OVH's control panel does not offer many options for customization, but they allow to execute a post-installation script so  It was useedv to achieve results.
  
 ![index.png](/uploads/index.png)
 
