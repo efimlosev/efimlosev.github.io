@@ -17,23 +17,48 @@ Authorized to work in the USA for any employers.
 
 **PROFESSIONAL SUMMARY**  
 
-  A Linux Engineer with 10+ years of experience in IT field  is looking for new challenges.  
+A Systems Engineer with 10+ years’ experience is looking for an opportunity to exercise his skills
+In managing servers and computer networks to grow with a potential employer.
+
   **KEY SKILLS**  
-  **Linux:** Debian/Ubuntu, RedHat/Centos, Arch Linux  
-  **Unix:** FreeBSD, Mac OSX  
-  **Windows servers** : 2003/2008  
-  **Hardware:** Cisco, Juniper, IBM, HP, Supermicro, DELL  
-  **Networking:** IPv4, IPv6,TCP/IP, UDP, SNMP, DHCP, NTP, DNS  
-  **Shell Scripting** : Bash, Python  
-  **Unix Services:** IPtables, Squid, Rsync, Apache, Nginx, MySQL, PHP, BIND, Vsftpd , Proftpd, OpenSSH, PF, Pptpd, OpenVPN, SVN, GIT, Haproxy, Ansible  
-  **Telephone systems:** Asterisk, Opensips  
-  **Virtualization:** VMware ESXI, Proxmox VE, Google cloud, Docker  
-  **Some Knowledge of programing languages such as** :  Java, C++, JavaScript  
 
-  **PROFESSIONAL EXPERIENCE**  
+**Linux:** Debian/Ubuntu, RedHat/Centos, Arch Linux 
+**Unix:** FreeBSD, Mac OSX
+**Hardware:** Cisco, Juniper, IBM, HP, Supermicro, DELL 
+**Networking:** IPv4, IPv6, TCP/IP, UDP, SNMP, DHCP, NTP, DNS 
+**Shell** Scripting: Bash, Python, Perl
+**Configuration Management Software:**  Ansible, Cfengine
+**Unix Services:** IPtables, Squid, Rsync, Apache, Nginx, MySQL, Redis, Memcache, PHP, LDAP, BIND, Vsftpd, Proftpd, NFS, OpenVPN, SVN, GIT, Haproxy, ELK stack, Hadoop and varies other services
+**File Systems:** LVM, XFS, Ext4, ZFS, Ceph
+**Telephone systems:** Asterisk, Opensips 
+**Virtualization:** VMware ESXI, KVM, Google cloud, Docker
 
-  **Engineer &amp; Technology consultant,** Corporate Colocation. Los Angeles, CA           **08/2015 – 10/2017**  
-  -  Providing customer support for over 600 customers and over 2000 servers.
+
+**PROFESSIONAL EXPERIENCE** 
+ 
+**Systems Engineer**, IMVU. San Jose, CA                                            **11/2018 – Current**
+- Keeping the company's services, Production, available around-the-clock.
+- Writing scripts.
+- Designing, automating , updating and deploying services.
+- Mentoring a remote team of four.
+- Deployed amemcache cluster with HA provided over keepalived serivice.
+
+**Systems Engineer**, Contractor, Red Oaks at IMVU. San Jose, CA                   **02/2018 - 11/2018**
+- Wrote programs in Python,  Perl, and Bash 
+- Worked on implementing 2FA on Hypervisors' clusters. 
+- Composed CFengine rules to automate deploying a variety of computer services
+- Kept documentation up-to-date.
+- Troubleshoot incidents in Production.
+
+**Solution Architect**, Private Company, Remote                                     **11/2017 – 03/2018**
+- Developed Kickstart files which helped to reduce the time spent to deploy new servers and as a result, the company has grown rapidly.
+- Worked with API to build the list of available servers to perform maintenance tasks.
+- Implemented Ansible so there was an easy way to manage the cluster of 300 servers.
+- Enforced best security practices across the cluster.
+
+
+**Engineer; Technology consultant,** Corporate Colocation. Los Angeles, CA           **08/2015 – 10/2017**  
+-  Providing customer support for over 600 customers and over 2000 servers.
 -  Managing the company&#39;s physical and virtual servers along with some customers&#39; servers.
 -  Writing shell scripts to simplify routine tasks.
 -  Maintaining and filling down incorporate documentation.
