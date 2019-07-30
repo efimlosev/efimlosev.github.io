@@ -8,7 +8,7 @@ layout: page
  
 
 **Efim Losev**
-efimius@gmail.com ∙ 323.620.6680 ∙ Downey, CA   
+efimius@gmail.com ∙ 323.620.6680 ∙ San Jose, CA   
 Authorized to work in the USA for any employers.
 
 [comment]: <> (the header ends)
@@ -35,7 +35,7 @@ In managing servers and computer networks to grow with a potential employer.
 
 
 **PROFESSIONAL EXPERIENCE** 
- 
+
 **Systems Engineer**, IMVU. San Jose, CA                                            **11/2018 – Current**
 - Keeping the company's services, Production, available around-the-clock.
 - Writing scripts.
