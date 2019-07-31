@@ -8,8 +8,7 @@ layout: page
  
 
 **Efim Losev**
-efimius@gmail.com ∙ 323.620.6680 ∙ San Jose, CA   
-Authorized to work in the USA for any employers.
+efim@losev.us ∙ 323.620.6680 ∙ San Jose, CA   
 
 [comment]: <> (the header ends)
 
